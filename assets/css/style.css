@@ -1,0 +1,118 @@
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+
+body {
+    font-family: 'Lato';
+    /*  font-family: 'Poppins', sans-serif;*/
+    /*  font-family: Montserrat;*/
+    /*font-family: 'Bellefair', serif;*/
+    /*  font-size: 14px;*/
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    background-color: #ffffff;
+    /*  background-color: rgba(0, 0, 0, 0.04);*/
+}
+
+h3 {
+    /*    font-family: 'Alegreya', serif;*/
+    font-family: 'Cormorant Infant', serif;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+}
+
+.bg-dark {
+    background-color: #212529 !important;
+    /*background-color: rgba(0,0,0,0.7)!important;*/
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 24px;
+    /*letter-spacing: 0.1em;*/
+}
+
+.navbar-custom .nav-link {
+    font-size: 18px;
+    /*letter-spacing: 0.1em;*/
+}
+
+.img-fluid {
+    width: 66%;
+    height: auto;
+}
+
+#main-footer h1 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#main-footer p {
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+#links-section .card {
+    /*    margin: 20px auto;*/
+    /*    padding-right: 0;
+    padding-left: 0;*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;*/
+}
+
+/*
+.align-self-start {
+    margin: 15px;
+}
+*/
+.col-md-4 {
+    padding: 25px;
+}
+
+.card {
+    width: 75%;
+    margin: 0 auto;
+    /*    margin: 0 60px 0 60px;*/
+    float: none;
+    margin-bottom: 20px;
+    /*  padding: 10px 10px 10px 10px;*/
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+    /*box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);*/
+}
+
+/*.card:hover {
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);*/
+/*    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);*/
+/*    color:black;
+}*/
+
+
+/* ===== MEDIA QUERIES ===== */
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .card {
+        width: 100%;
+    }
+}
