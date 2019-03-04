@@ -28,6 +28,61 @@ h3 {
     font-size: 18px;
 }
 
+/* iFrame Video Styles */
+
+figure {
+    /* width: 640px; */
+    width: 580px;
+    padding: 20px 20px 8px;
+    margin: 40px auto 48px;
+}
+
+figure {
+    background-color: #212529;
+    /* padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 16px;
+    margin-bottom: 24px; */
+    overflow: hidden;
+}
+
+figcaption {
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+    /* font-size: 1.4em; */
+    font-size: 20px;
+    clear: both;
+    /* font-style: italic; */
+    color: #ccc;
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+
+figcaption,
+figure {
+    display: block;
+    /* margin: 0;
+padding: 0; */
+    border-width: 0;
+}
+
+figure {
+    /* display: block; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    /* margin-inline-start: 40px;
+    margin-inline-end: 40px; */
+}
+
+.video-info {
+    margin-left: 150px;
+}
+
+
+
+
 .img-fluid {
     width: 66%;
     height: auto;
