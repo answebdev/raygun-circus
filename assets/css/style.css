@@ -64,7 +64,7 @@ figcaption,
 figure {
     display: block;
     /* margin: 0;
-padding: 0; */
+    padding: 0; */
     border-width: 0;
 }
 
@@ -80,9 +80,6 @@ figure {
     margin-left: 150px;
     padding-right: 0;
 }
-
-
-
 
 .img-fluid {
     width: 66%;
