@@ -42,10 +42,14 @@ article {
     overflow: hidden;
 }
 
-.fixed-bottom {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030;
+/* Sticky footer code */
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+  
+.Site-content {
+    flex: 1;
 }
