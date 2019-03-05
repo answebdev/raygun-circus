@@ -28,6 +28,24 @@ h3 {
 .navbar-custom .nav-link {
     font-size: 18px;
 }
+/* ============= STICKY FOOTER ============= */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+#main-footer {
+    flex-shrink: 0;
+}
+/* ========================================= */
 
 /* iFrame Video Styles */
 
