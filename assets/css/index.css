@@ -1,43 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    background-image: url("../images/gray.jpg");
-    font-family: 'Lato';
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    /*  background-color: #2f4f4f;*/
+	font-family: 'Lato';
+	background: #212529;
+	color: #ffffff;
 }
 
-.bg-dark {
-    background-color: #212529 !important;
-    /*background-color: rgba(0,0,0,0.7)!important;*/
+.site {
+	width: 100%;
+    height: 100%;
+    position: relative;
+	font-family: 'Lato';
+	font-size: 18px;
+	background: #ffffff;
+	color: #0E1822;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-.navbar-custom .navbar-brand {
-    font-size: 24px;
-    /*letter-spacing: 0.1em;*/
+.container {
+	flex: 1 0 auto;
 }
 
-.navbar-custom .nav-link {
-    font-size: 18px;
-    /*letter-spacing: 0.1em;*/
+#main {
+	background: linear-gradient(to bottom, rgba(0,0,0,0.30) 100%, transparent), url("../images/dz.jpg");
+	background-size: cover, cover;
+	background-position: center, center;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.img-fluid {
-    /*  max-width: 40%;*/
-    max-width: 50%;
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9);
+/* =====================================================================================================
+LOGO IMAGE CODE
+======================================================================================================== */
+#logo {
+    /* border: 4px solid #A9A9A9; */
+    border-radius: 100%;
+    display: inline-block;
+    height: 150px;
+	width: 150px;
+	position: fixed;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -170%);
 }
 
-#main-footer h1 {
-    color: #ffffff;
-    font-size: 24px;
+/* ===================================================================================================== */
+.main-div {
+	position: relative;
+	top: 30%;
+	transform: perspective(1px) translateY(-50%);
 }
 
-#main-footer p {
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0.1em;
+#landing-btns {
+	display: flex;
+	justify-content: center;
+    text-align: center;
+}
+
+#menu-btn,
+#home,
+#circle,
+#briefcase,
+#envelope {
+    color: #24292e;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#menu-btn
+#home:hover,
+#circle:hover,
+#briefcase:hover,
+#envelope:hover {
+	/* background: linear-gradient(rgba(0,0,0,0.40) 100%, transparent); */
+    /* background: #22DF25; */
+    background: #000000;
+	color: #ffffff;
+}
+
+.fixed-action-btn {
+	animation-duration: 2s;
+}
+
+#name {
+	margin-top: 3em;
+	
+	font-family: 'Lato';
+	font-size: 2rem;
+	letter-spacing: 0.1em;
+	display: inline-block;
+	padding: 1rem;
+	font-weight: 400;
+	position: relative;
+	opacity: 1;
+	transform: scale(1);
+	transition: transform 0.5s ease, opacity 1s ease;
+}
+
+h5, h4, #connect-message {
+	font-family: 'Lato';
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+.is-loading #name {
+	transform: scale(0.9);
+	opacity: 0;
+}
+
+#name:before,
+#name:after {
+	height: 2px;
+	width: 100%;
+	content: "";
+	background: white;
+	display: block;
+	position: absolute;
+	transition: width 0.4s ease;
+	transition-delay: 0.8s;
+}
+
+#name:before {
+	top: 0;
+	left: 0;
+}
+
+#name:after {
+	bottom: 0;
+	right: 0;
+}
+
+.is-loading #name:before,
+.is-loading #name:after {
+	width: 0;
+}
+
+nav {
+	background-color: #24292e;
+}
+
+#bars:hover {
+	color: #ffffff;
+}
+
+#label {
+	/* font-family: 'Lustria', serif; */
+	letter-spacing: 0.1em;
+	font-size: 20px;
+}
+
+#social-icon-links {
+	margin-right: 20px;
+	margin-top: 3px;
+}
+
+.fab:hover,
+.fas:hover {
+	color: #A9A9A9;
+}
+
+.user-view {
+	text-align: center;
+}
+
+#nav-image {
+	width: 100px;
+	height: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-background {
+	width: 100%;
+	height: 100%;
+}
+
+.page-footer {
+    padding-top: 0;
+	background-color: #24292e;
+	font-size: 14px;
+	color: #ffffff;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+#footer-container {
+	color: #ffffff;
 }
