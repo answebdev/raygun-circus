@@ -41,7 +41,7 @@ article {
     overflow: hidden;
 }
 
-/* Sticky footer code */
+/* ============= STICKY FOOTER ============= */
 
 .Site {
     display: flex;
@@ -52,3 +52,5 @@ article {
 .Site-content {
     flex: 1;
 }
+
+/* ========================================= */
