@@ -16,7 +16,7 @@ h3 {
 }
 
 .bg-dark {
-    background-color: #7F66B1 !important;
+    background-color: #7F66B1!important;
     /* background-color: #4967BD!important; */
 }
 
@@ -42,6 +42,49 @@ h3 {
     width: 79%;
     height: auto;
 }
+
+/* Back-to-top-button */
+#button {
+	display: inline-block;
+	background-color: #7F66B1;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 100%;
+	position: fixed;
+	bottom: 60px;
+	right: 15px;
+	transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+  }
+  #button::after {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #ffffff;
+  }
+  #button:hover {
+	cursor: pointer;
+	background-color: #4F575A;
+  }
+  #button:active {
+    
+    background-color: #B2A3C7;
+  }
+  #button.show {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  #back-top-btn {
+      color: #ffffff;
+      font-size: 2em;
+      margin-top: 8px;
+  }
 
 /* ============= STICKY FOOTER ============= */
 #main-footer {
