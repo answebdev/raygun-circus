@@ -1,64 +1,117 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en-us">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Street of Little Girls</title>
-
     <link rel="icon" href="assets/solgImages/beauty.ico">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet">
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Link to Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="assets/css/SOLG.css" type="text/css" rel="stylesheet" />
-
+    <!-- Link to Lightbox -->
+    <link href="assets/css/lightbox.css" rel="stylesheet">
 </head>
 
 <body>
-
     <div class="content">
-
-        <header>
-            <h1>Street of Little Girls</h1>
-        </header>
-
-        <nav>
-            <ul>
-                <li><a href="SOLG.html">Bio</a></li>
-                <li><a href="SOLG-releases.html">Releases</a></li>
-                <li><a href="links.html">Links</a>
-            </ul>
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-custom" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="SOLG.html" class="navbar-brand navbar-custom">Street of Little Girls</a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="SOLG.html" class="nav-link">Bio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="SOLG-releases.html" class="nav-link">Releases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="links.html" class="nav-link">Links</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
-        <article>
-            <h1>Bio</h1>
-            <p><img src="assets/solgImages/SOLG 2009 radio room soo min lee - 425 x 239.jpg"
-                    alt="Street of Little Girls, 2009." title="Street of Little Girls, 2009."
-                    style="float: left; margin-right: 10px; margin-left: 5px; border: solid black 1px; padding: 2px;" />Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra enim dui, eget maximus est mollis ut.
-                Donec diam urna, luctus id orci a, pretium ultricies mauris. Mauris turpis nibh, vehicula sed rutrum
-                tristique, feugiat vel libero. Sed congue ex a tortor vehicula, suscipit feugiat nulla mattis. Morbi non
-                lobortis quam. Ut facilisis hendrerit neque, a laoreet ante accumsan et. Sed egestas mauris elit.
-                Aliquam semper lobortis leo eget rutrum. Donec sed nisl vitae massa molestie molestie. Proin sed odio eu
-                ipsum tincidunt sagittis. Donec a ipsum nec enim congue maximus. Vivamus nunc nisi, finibus quis mi vel,
-                dignissim dignissim quam. Maecenas pharetra pellentesque lectus, ut laoreet lorem tempus eu. Proin et
-                leo et dui aliquam mollis. Nulla venenatis justo eu nibh elementum scelerisque in id ante. Phasellus sed
-                nunc vel odio malesuada condimentum at sed elit. Duis massa urna, viverra et lacinia eu, volutpat quis
-                purus. Maecenas sed rhoncus urna. Cras vitae semper felis, eget pulvinar purus.</p>
+        <!-- End Navbar -->
 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+        <div class="container">
 
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 id="bio-header"><strong>Bio</strong></h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="assets/solgImages/SOLG-2009.JPG" class="img-fluid"
+                        data-lightbox="Street of Little Girls, 2009." alt="Street of Little Girls, 2009."
+                        title="Street of Little Girls, 2009." class="img-fluid mb-3">
+                        <img src="assets/solgImages/SOLG-2009.JPG" class="img-fluid mb-3" />
+                    </a>
+                </div>
+                <div class="col-md-7">
+                    <p>Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra enim dui, eget maximus est
+                        mollis ut.
+                        Donec diam urna, luctus id orci a, pretium ultricies mauris. Mauris turpis nibh, vehicula sed
+                        rutrum
+                        tristique, feugiat vel libero. Sed congue ex a tortor vehicula, suscipit feugiat nulla mattis.
+                        Morbi non
+                        lobortis quam. Ut facilisis hendrerit neque, a laoreet ante accumsan et. Sed egestas mauris
+                        elit.
+                        Aliquam semper lobortis leo eget rutrum. Donec sed nisl vitae massa molestie molestie. Proin sed
+                        odio eu
+                        ipsum tincidunt sagittis. Donec a ipsum nec enim congue maximus. Vivamus nunc nisi, finibus quis
+                        mi vel,
+                        dignissim dignissim quam. Maecenas pharetra pellentesque lectus, ut laoreet lorem tempus eu.
+                        Proin et
+                        leo et dui aliquam mollis. Nulla venenatis justo eu nibh elementum scelerisque in id ante.
+                        Phasellus sed
+                        nunc vel odio malesuada condimentum at sed elit. Duis massa urna, viverra et lacinia eu,
+                        volutpat quis
+                        purus. Maecenas sed rhoncus urna. Cras vitae semper felis, eget pulvinar purus.
+                    </p>
+                </div>
+            </div>
+
+        </div>
 
     </div>
-    </div>
+    <!-- MAIN FOOTER -->
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="py-3">
+                        <!-- <h1 class="h3">Raygun Circus</h1> -->
+                        <p class="lead mb-0">&copy; 2019 Raygun Circus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    </article>
-    </div>
+    <!-- End Footer -->
 
-    <footer id="main-footer">&copy; Raygun Circus 2019</footer>
-
-    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/popper.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/lightbox.js"></script>
+    <script src="assets/javascript/lightbox-plus-jquery.js"></script>
 
 </body>
 
