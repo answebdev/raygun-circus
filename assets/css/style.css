@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Lato';
     font-size: 16px;
@@ -23,11 +22,17 @@ h3 {
 
 .navbar-custom .navbar-brand {
     font-size: 24px;
+    letter-spacing: 0.5px;
 }
 
 .navbar-custom .nav-link {
     font-size: 18px;
+    letter-spacing: 0.5px;
 }
+
+/* .navbar-custom:hover .nav-link:hover {
+    color: #ffffff;
+} */
 /* ============= STICKY FOOTER ============= */
 html, body {
     height: 100%;
