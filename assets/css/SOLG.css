@@ -85,6 +85,24 @@ h3 {
       margin-top: 8px;
   }
 
+  .card-title {
+      font-weight: 700;
+  }
+
+  .card:hover {
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+
+  #reader-btn {
+      background-color: #60543E;
+      border-color: #60543E;
+  }
+
+  #reader-btn:hover {
+      background-color: #BEA289;
+      border-color: #BEA289;
+  }
+
 /* ============= STICKY FOOTER ============= */
 #main-footer {
     flex-shrink: 0;
