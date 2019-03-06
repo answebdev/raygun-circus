@@ -89,7 +89,7 @@ h3 {
 /* ============= STICKY FOOTER ============= */
 #main-footer {
     flex-shrink: 0;
-    background-color: #7F66B1 !important;
+    background-color: #7F66B1!important;
 }
 
 #main-footer h1 {
@@ -116,65 +116,3 @@ body {
 .content {
     flex: 1 0 auto;
 }
-
-
-/* ========================================= */
-
-
-
-/* header,
-footer {
-    padding: 1em;
-    color: white;
-    background-color: #654321;
-    clear: left;
-    text-align: center;
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
-
-
-html, body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.content {
-    flex: 1 0 auto;
-}
-
-#main-footer {
-    flex-shrink: 0;
-} */
