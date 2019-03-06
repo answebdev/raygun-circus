@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
+    <!-- Link to Lightbox -->
+    <link href="assets/css/lightbox.css" rel="stylesheet">
 </head>
 
 <body>
@@ -67,7 +69,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="assets/images/ANS 2017.jpg" class="img-fluid mb-3">
+                            <a href="assets/images/ANS-2017.jpg" class="img-fluid" data-lightbox="Raygun Circus, 2017."
+                            alt="Raygun Circus, 2017." title="Raygun Circus, 2017." class="img-fluid mb-3">
+                            <img src="assets/images/ANS-2017.jpg" class="img-fluid mb-3" />
+                        </a>
                     </div>
 
                     <div class="col-md-6">
@@ -125,6 +130,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://unpkg.com/popper.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/lightbox.js"></script>
+    <script src="assets/javascript/lightbox-plus-jquery.js"></script>
 
 </body>
 
