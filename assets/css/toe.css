@@ -38,6 +38,11 @@ h3 {
     margin-top: 40px;
 }
 
+.lightbox-img {
+    width: 79%;
+    height: auto;
+}
+
 /* ============= STICKY FOOTER ============= */
 #main-footer {
     flex-shrink: 0;
