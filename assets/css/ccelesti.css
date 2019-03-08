@@ -34,7 +34,8 @@ h3 {
     color: #ffffff;
 } */
 
-#bio-header {
+#bio-header,
+#album-title {
     margin-top: 40px;
 }
 
