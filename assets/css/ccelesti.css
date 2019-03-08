@@ -73,10 +73,10 @@ h3 {
   }
   #button:hover {
 	cursor: pointer;
-	background-color: #4F575A;
+	background-color: #8D8F12;
   }
   #button:active {
-    background-color: #B2A3C7;
+    background-color: #41ABC9;
   }
   #button.show {
 	opacity: 1;
