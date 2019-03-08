@@ -48,6 +48,17 @@ h3 {
     width: 72%;
 }
 
+#lyrics-btn {
+    color: #0C74AC;
+    border-color: #0C74AC;
+    letter-spacing: 0.1em;
+}
+
+#lyrics-btn:hover {
+    background-color: #0C74AC;
+    color: #ffffff;
+}
+
 /* Back-to-top-button */
 #button {
 	display: inline-block;
