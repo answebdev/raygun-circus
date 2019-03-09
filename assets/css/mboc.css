@@ -115,3 +115,38 @@ body {
 .content {
     flex: 1 0 auto;
 }
+
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+    .navbar-custom .navbar-brand {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .navbar-custom .navbar-brand {
+        font-size: 20px;
+    }
+
+}
+  
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .navbar-custom .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    .navbar-custom .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .navbar-custom .navbar-brand {
+        display: none;
+    }
+
+}
