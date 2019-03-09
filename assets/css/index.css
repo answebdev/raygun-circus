@@ -209,3 +209,63 @@ nav {
 #footer-container {
 	color: #ffffff;
 }
+
+/* ===== MEDIA QUERIES ===== */
+/* @media screen and (min-width: 1601px) and (max-width: 1900px) {
+	.main-div {
+		position: relative;
+		top: 10%;
+		transform: perspective(1px) translateY(-50%);
+	}
+
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+	.main-div {
+		position: relative;
+		top: 10%;
+		transform: perspective(1px) translateY(-50%);
+	}
+
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+	.main-div {
+		position: relative;
+		top: 10%;
+		transform: perspective(1px) translateY(-50%);
+	}
+
+}
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+	.main-div {
+		position: relative;
+		top: 10%;
+		transform: perspective(1px) translateY(-50%);
+	}
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+	.main-div {
+		position: relative;
+		top: 10%;
+		transform: perspective(1px) translateY(-50%);
+	}
+
+}
+  
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+
+
+} */
