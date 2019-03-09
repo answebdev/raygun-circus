@@ -188,48 +188,11 @@ footer a{
   opacity: 1;
 }
 
-
 /* ====================================== */
 
 #bio-img {
     width: 72%;
 }
-
-/* ========= iFrame Video Styles ========*/
-
-/* figure {
-    width: 580px;
-    padding: 20px 20px 8px;
-    margin: 40px auto 48px;
-}
-
-figure {
-    background-color: #212529;
-    overflow: hidden;
-}
-
-figcaption {
-    font-family: 'Lato';
-    letter-spacing: 0.5px;
-    font-size: 20px;
-    clear: both;
-    color: #cccccc;
-    text-align: right;
-    padding-top: 8px;
-    padding-right: 16px;
-    padding-bottom: 8px;
-}
-
-figcaption,
-figure {
-    display: block;
-    border-width: 0;
-}
-
-figure {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-} */
 
 /* ====================================== */
 
