@@ -26,13 +26,15 @@ h3 {
 }
 
 .navbar-custom .nav-link {
+    color: #909090!important;
     font-size: 18px;
     letter-spacing: 0.5px;
 }
 
-/* .navbar-custom:hover .nav-link:hover {
-    color: #ffffff;
-} */
+.navbar-custom:hover .nav-link:hover {
+    color: #ffffff!important;
+}
+
 /* ============= STICKY FOOTER ============= */
 html, body {
     height: 100%;
@@ -55,11 +57,64 @@ body {
     flex-shrink: 0;
 }
 
+/* ====================================== */
+
+footer a{
+    float: right;
+    /* margin-right: 30px; */
+    /* margin-right: 20px; */
+}
+
+#footer-content {
+    clear: both;
+    margin-bottom: 0;
+    /* font-size: 18px!important; */
+}
+
+.social-links a {
+    /* text-align:center; */
+      /* float: left; */
+      width: 36px;
+      height: 36px;
+      border: 2px solid #909090;
+      /* border-radius: 100%; */
+      margin-right: 7px; /*space between*/
+      display: flex;
+      align-items: flex-start;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+  }
+
+  .social-links a i {
+      font-size: 20px;
+      align-self:center;
+      color: #909090;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      margin: 0 auto;
+  }
+
+  .social-links a i::before {
+    display:inline-block;
+    text-decoration:none;
+  }
+
+  .social-links a:hover {
+    background: rgba(0,0,0,0.2);
+    border-color: #ffffff
+  }
+
+  .social-links a:hover i {
+    color:#ffffff;
+  }
+
+  #footer-content a {
+      margin-top: -6px;;
+  }
+
 #ans {
     width: 72%;
 }
-
-/* ========================================= */
 
 /* iFrame Video Styles */
 
