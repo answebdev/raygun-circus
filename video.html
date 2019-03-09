@@ -31,7 +31,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/RC Logo - transparent.png" alt="Logo" style="width:35px;">
+                    <img src="assets/images/RC Logo - transparent.png" id="logo" alt="Logo">
                 </a>
                 <a href="index.html" class="navbar-brand navbar-custom">Raygun Circus</a>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -51,14 +51,6 @@
                         <li class="nav-item">
                             <a href="links.html" class="nav-link">Links</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="https://rayguncircus.bandcamp.com/" class="nav-link" rel="noreferrer"
-                                target="_blank">Bandcamp <i class="fab fa-bandcamp"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://soundcloud.com/rayguncircus" class="nav-link" rel="noreferrer"
-                                target="_blank">SoundCloud <i class="fab fa-soundcloud"></i></a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -75,19 +67,18 @@
             </div>
 
             <div class="row">
-                    <div class="col-md-12">
-                        <p>Random videos recorded during Raygun Circus practice sessions.</p>
-                        <hr>
-                    </div>
+                <div class="col-md-12">
+                    <p>Random videos recorded during Raygun Circus practice sessions.</p>
+                    <hr>
                 </div>
+            </div>
 
-                <br>
+            <br>
 
             <div class="row">
                 <div class="col-md-5">
                     <figure>
-                        <iframe width="540" height="295"
-                            src="https://www.youtube.com/embed/bDlaylHLblw" frameborder="0"
+                        <iframe width="540" height="295" src="https://www.youtube.com/embed/bDlaylHLblw" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
@@ -206,15 +197,24 @@
         </div>
     </div>
 
+    <!-- Back to top button: adapted from https://codepen.io/matthewcain/pen/ZepbeR -->
+    <a class="btn-floating btn-large" id="button">
+        <i class="fas fa-arrow-up" id="back-top-btn"></i>
+    </a>
+
     <!-- MAIN FOOTER -->
     <footer id="main-footer" class="bg-dark">
         <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="py-3">
-                        <!-- <h1 class="h3">Raygun Circus</h1> -->
-                        <p class="lead mb-0">&copy; 2019 Raygun Circus</p>
-                    </div>
+            <div class="py-3">
+                <div class="social-links">
+                    <p id="footer-content">&copy; 2019 Raygun Circus
+                        <a href="https://www.youtube.com/channel/UCSo2o4rue46CB5NIw_CP2DQ" title="YouTube"
+                            rel="noreferrer" target="_blank"><i class="fab fa-youtube-square social-icon-links"></i></a>
+                        <a href="https://soundcloud.com/rayguncircus" title="SoundCloud" rel="noreferrer"
+                            target="_blank"><i class="fab fa-soundcloud social-icon-links"></i></a>
+                        <a href="https://rayguncircus.bandcamp.com/" title="Bandcamp" rel="noreferrer"
+                            target="_blank"><i class="fab fa-bandcamp social-icon-links"></i></a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -223,6 +223,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://unpkg.com/popper.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
 
 </body>
 

@@ -35,6 +35,11 @@ h3 {
     color: #ffffff!important;
 }
 
+#logo {
+    width: 35px;
+    margin-top:-5px;
+}
+
 /* ============ STICKY FOOTER =========== */
 html, body {
     height: 100%;
