@@ -69,6 +69,13 @@ LOGO IMAGE CODE
     text-align: center;
 }
 
+#landing-btns a {
+	border: 2px solid #ffffff;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
 #menu-btn,
 #home,
 #circle,
