@@ -35,7 +35,7 @@ h3 {
     color: #ffffff!important;
 }
 
-/* ============= STICKY FOOTER ============= */
+/* ============ STICKY FOOTER =========== */
 html, body {
     height: 100%;
 }
@@ -57,7 +57,7 @@ body {
     flex-shrink: 0;
 }
 
-/* ====================================== */
+/* ===== SOCIAL ICON LINKS ON FOOTER ===== */
 
 footer a{
     float: right;
@@ -83,9 +83,9 @@ footer a{
       align-items: flex-start;
       transition: all 0.4s;
       -webkit-transition: all 0.4s;
-  }
+}
 
-  .social-links a i {
+.social-links a i {
       font-size: 20px;
       align-self:center;
       color: #909090;
@@ -93,27 +93,29 @@ footer a{
       -webkit-transition: all 0.4s;
       margin: 0 auto;
       padding-left: 1.5px;
-  }
+}
 
-  .social-links a i::before {
+.social-links a i::before {
     display:inline-block;
     text-decoration:none;
-  }
+}
 
-  .social-links a:hover {
+.social-links a:hover {
     background: rgba(0,0,0,0.2);
     border-color: #ffffff
-  }
+}
 
-  .social-links a:hover i {
+.social-links a:hover i {
     color:#ffffff;
-  }
+}
 
-  #footer-content a {
-      margin-top: -6px;;
-  }
+#footer-content a {
+    margin-top: -6px;;
+}
 
-#ans {
+/* ====================================== */
+
+#bio-img {
     width: 72%;
 }
 
