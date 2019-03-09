@@ -7,6 +7,8 @@ body {
     font-size: 16px;
     letter-spacing: 0.5px;
     background-color: #ffffff;
+    /* background-color: #eeeeee;
+    color: #222222; */
 }
 
 h3 {
@@ -112,6 +114,8 @@ footer a{
 
 .social-links a:hover i {
     color:#ffffff;
+    /* color:#eeeeee; */
+    /* color: #FFFFE4; */
 }
 
 #footer-content a {
@@ -124,10 +128,9 @@ footer a{
     width: 72%;
 }
 
-/* iFrame Video Styles */
+/* ========= iFrame Video Styles ========*/
 
-figure {
-    /* width: 640px; */
+/* figure {
     width: 580px;
     padding: 20px 20px 8px;
     margin: 40px auto 48px;
@@ -135,20 +138,14 @@ figure {
 
 figure {
     background-color: #212529;
-    /* padding-bottom: 0;
-    padding-top: 0;
-    margin-top: 16px;
-    margin-bottom: 24px; */
     overflow: hidden;
 }
 
 figcaption {
     font-family: 'Lato';
     letter-spacing: 0.5px;
-    /* font-size: 1.4em; */
     font-size: 20px;
     clear: both;
-    /* font-style: italic; */
     color: #cccccc;
     text-align: right;
     padding-top: 8px;
@@ -159,22 +156,18 @@ figcaption {
 figcaption,
 figure {
     display: block;
-    /* margin: 0;
-    padding: 0; */
     border-width: 0;
 }
 
 figure {
-    /* display: block; */
     margin-block-start: 1em;
     margin-block-end: 1em;
-    /* margin-inline-start: 40px;
-    margin-inline-end: 40px; */
-}
+} */
+
+/* ====================================== */
 
 .video-info {
-    margin-left: 150px;
-    padding-right: 0;
+    margin-top: -20px;
 }
 
 .img-fluid {
@@ -271,24 +264,40 @@ figure {
 
 /* ===== MEDIA QUERIES ===== */
 @media screen and (min-width: 981px) and (max-width: 1200px) {
+    .video-info {
+        margin-top: -20px;
+    }
+
     .card {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
+    .video-info {
+        margin-top: -20px;
+    }
+
     .card {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
+    .video-info {
+        margin-top: 20px;
+    }
+
     .card {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 640px) {
+    .video-info {
+        margin-top: 20px;
+    }
+
     .card {
         width: 100%;
     }
