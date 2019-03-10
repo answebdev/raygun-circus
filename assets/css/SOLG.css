@@ -169,6 +169,8 @@ body {
 }
 
 .modal-title {
+    font-size: 22px;
+    font-weight: 700;
     letter-spacing: 0.5px;
 }
 
@@ -176,6 +178,11 @@ body {
 .modal-footer>:not(:last-child) {
     background-color: #60543E;
 }
+
+/* .modal-footer>:not(:first-child):hover,
+.modal-footer>:not(:last-child):hover {
+    background-color: #BEA289;
+} */
 /* ========================================== */
 
 /* ===== MEDIA QUERIES ===== */
