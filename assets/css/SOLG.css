@@ -168,11 +168,6 @@ body {
     height: auto;
 }
 
-#casbah {
-    width: 100%;
-    height: auto;
-}
-
 .modal-title {
     letter-spacing: 0.5px;
 }
@@ -182,3 +177,37 @@ body {
     background-color: #60543E;
 }
 /* ========================================== */
+
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+}
+  
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .modal-dialog {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    .modal-dialog {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .modal-dialog {
+        width: 100%;
+        height: auto;
+    }
+
+}
