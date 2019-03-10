@@ -146,7 +146,8 @@ body {
         display: none;
     } */
     .navbar-custom .navbar-brand {
-        font-size: 13px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
     }
 
     .navbar-custom .nav-link {
@@ -159,7 +160,8 @@ body {
         display: none;
     } */
     .navbar-custom .navbar-brand {
-        font-size: 13px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
     }
 
     .navbar-custom .nav-link {
@@ -172,7 +174,8 @@ body {
         display: none;
     } */
     .navbar-custom .navbar-brand {
-        font-size: 10.5px;
+        letter-spacing: 0.5px;
+        font-size: 11.5px;
     }
 
     .navbar-custom .nav-link {
