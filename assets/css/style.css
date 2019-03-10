@@ -298,6 +298,10 @@ footer a{
       font-size: 2em;
       margin-top: 8px;
   }
+  
+  #hidden-footer {
+      display: none;
+  }
 
   /* ===== MEDIA QUERIES ===== */
 
@@ -342,6 +346,18 @@ footer a{
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
+    .social-links {
+        display: flex;
+        justify-content: center;
+    }
+    #main-footer .social-links a {
+        display: none;
+    }
+
+    #hidden-footer {
+        display: unset;
+    }
+
     .video-info {
         margin-top: 20px;
     }
