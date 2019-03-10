@@ -22,7 +22,8 @@ h3 {
 
 .navbar-custom .navbar-brand {
     font-size: 24px;
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.5px; */
+    letter-spacing: 1.0px;
 }
 
 .navbar-custom .nav-link {
@@ -114,6 +115,14 @@ body {
 
 .content {
     flex: 1 0 auto;
+}
+
+/* ========================================== */
+
+/* Copyright info in footer */
+.lead {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 /* ===== MEDIA QUERIES ===== */
