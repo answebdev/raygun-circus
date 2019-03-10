@@ -82,7 +82,8 @@ LOGO IMAGE CODE
 #briefcase,
 #envelope {
     color: #000000;
-    font-style: normal;
+	font-style: normal;
+	/* color: #4967BD; */
     font-weight: 700;
 }
 
@@ -93,7 +94,8 @@ LOGO IMAGE CODE
 #envelope:hover {
 	/* background: linear-gradient(rgba(0,0,0,0.40) 100%, transparent); */
     /* background: #22DF25; */
-    background: #000000;
+	background: #000000;
+	/* background: #4967BD; */
 	color: #ffffff;
 }
 
