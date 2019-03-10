@@ -142,3 +142,43 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
+
+/* ====== IMAGE GALLERY FOR FLIERS PAGE ===== */
+/* Source: https://bootsnipp.com/snippets/P2gor */
+#main-row {
+    margin-top: -5px;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+  
+#image-gallery .modal-footer{
+    display: block;
+}
+  
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-dialog {
+    width: 40%;
+    height: auto;
+}
+
+#casbah {
+    width: 100%;
+    height: auto;
+}
+
+.modal-title {
+    letter-spacing: 0.5px;
+}
+
+.modal-footer>:not(:first-child),
+.modal-footer>:not(:last-child) {
+    background-color: #60543E;
+}
+/* ========================================== */
