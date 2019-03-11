@@ -251,9 +251,13 @@ footer a {
 }
 
 .card-title {
-	/* font-size: 20px!important; */
-    /* font-weight: 700!important; */
+	font-size: 20px;
+    font-weight: 700;
     letter-spacing: 0.5px;
+}
+
+.card-text {
+    font-size: 16px;
 }
 
 .card:hover {
