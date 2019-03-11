@@ -236,6 +236,10 @@ footer a {
     /* box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22); */
 }
 
+#enter-btn {
+    background-color: #212529;
+}
+
 .left-card {
     float: left;
     clear: both;
