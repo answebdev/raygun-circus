@@ -50,6 +50,7 @@ header:before {
   
 .header-title {
 	color: #ffffff;
+	/* margin-bottom: 15px; */
 }
   
 .header-subtitle {
