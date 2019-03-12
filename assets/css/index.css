@@ -8,7 +8,6 @@ body {
 	letter-spacing: 0.1em;
 	color: #ffffff;
 	background: #212529;
-
 }
 
 /* LOGO IMAGE CODE */
@@ -140,8 +139,7 @@ header:before {
 .header-button {
 	animation-delay: 1.1s;
 }
-  
-  
+
 /* Animations */
   
 @keyframes fade-slide-down {
