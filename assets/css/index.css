@@ -104,6 +104,11 @@ header:before {
 	border-color: #4967BD!important;
 }
 
+.button--text-medium:active {
+	color: #4967BD!important;
+	border-color: #ffffff!important;
+}
+
 /* .button--webcoderskull:active::before {
 	background-color: #212529!important;
 }
