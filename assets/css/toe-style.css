@@ -4,22 +4,6 @@ body {
     font-family: 'Lato';
 }
 
-/*
-body {
-  font-family: 'Lato';
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  background-color: #ffffff;
-}
-
-h3 {
-  font-family: 'Cormorant Infant', serif;
-  font-size: 36px;
-  letter-spacing: 0.5px;
-}
-*/
-
-
 .navbar {
     border-bottom: #008ed6 3px solid;
     opacity: 0.8;
