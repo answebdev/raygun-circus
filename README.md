@@ -6,6 +6,8 @@ Raygun Circus is the official website for Raygun Circus, an indie band from San 
 
 This website was created with Bootstrap, HTML, and CSS. The fonts used ('Cormorant Infant' and 'Lato') come from Google Fonts. The social icons used in the footer come from Font Awesome. Lightbox by Lokesh Dhakar is used to overlay images on the current page. When an image is clicked (e.g. album cover), the image is displayed by filling the screen, and dimming out the rest of the web page (see screenshot #4 below). The videos on the Videos page are embedded YouTube videos.
 
+Open Graph Tags have been added so that when a link from the website is shared and posted (e.g. on Facebook), the desired image and text will be shown.
+
 # Technologies Used
 
 * Lightbox
@@ -29,3 +31,5 @@ https://rayguncircus.com/
 ![Screenshot 03](screenshots/raygunCircus-screenshot03.png "Links Page")
 
 ![Screenshot 04](screenshots/raygunCircus-screenshot04.png "Street of Little Girls Home Page")
+
+![Screenshot 05](screenshots/raygunCircus-screenshot05.jpg "Detail of posted link on Facebook page")
