@@ -32,4 +32,4 @@ https://rayguncircus.com/
 
 ![Screenshot 04](screenshots/raygunCircus-screenshot04.png "Street of Little Girls Home Page")
 
-![Screenshot 05](screenshots/raygunCircus-screenshot05.jpg "Detail of posted link on Facebook page")
+![Screenshot 05](screenshots/raygunCircus-screenshot05.png "Detail of posted link on Facebook page")
