@@ -27,8 +27,8 @@ https://rayguncircus.com/
 
 ![Screenshot 01](screenshots/raygunCircus-screenshot01.jpg "Landing Page")
 
-![Screenshot 02](screenshots/raygunCircus-screenshot02.jpg "Releases Page")
+![Screenshot 02](screenshots/raygunCircus-screenshot02.png "Releases Page")
 
-![Screenshot 03](screenshots/raygunCircus-screenshot03.jpg "Links Page")
+![Screenshot 03](screenshots/raygunCircus-screenshot03.png "Links Page")
 
-![Screenshot 04](screenshots/raygunCircus-screenshot04.jpg "Street of Little Girls Home Page")
+![Screenshot 04](screenshots/raygunCircus-screenshot04.png "Street of Little Girls Home Page")
