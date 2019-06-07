@@ -10,8 +10,8 @@ Open Graph Tags have been added so that when a link to or from the website is sh
 
 # Technologies Used
 
-* Lightbox
 * JavaScript
+* Lightbox
 * Bootstrap
 * CSS
 * HTML
