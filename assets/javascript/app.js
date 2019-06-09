@@ -108,3 +108,11 @@ $(document)
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
   });
+
+// Modal for Terminal Fiction book on Bio page
+
+$(window).ready(function () {
+  setTimeout(function () {
+    $('#modal-subscribe').modal("show")
+  }, 3000)
+})

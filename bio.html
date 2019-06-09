@@ -72,6 +72,32 @@
 
         <div class="container">
 
+
+            <!-- Subscribe Modal -- Source: https://codepen.io/jorenerene/pen/apNbgx -->
+            <div class="modal fade" id="modal-subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel"></h4>
+                        </div>
+                        <div class="modal-body">
+                            <h1 class="text-center text-uppercase">Terminal Fiction</h1>
+                            <div class="row">
+                                <div class="col-sm-12 col-sm-offset-1">
+                                    <p class="text-center">A new book by Adolf N.S. of Raygun Circus.</p>
+                                    <img src="assets/images/book.png" id="book" alt="Front cover of Terminal Fiction">
+                                    <br>
+                                    <p class="text-muted small text-center">Available now on Amazon.<br>Click <a
+                                            href="https://www.amazon.com/dp/057852001X?ref_=pe_3052080_397514860" rel="noopener noreferrer" target="_blank">here</a> to order.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <h3 id="main-header"><strong>Bio</strong></h3>
@@ -115,7 +141,9 @@
                         (2017),
                         solo versions of songs that would appear on the album that followed, <em>The Treachery
                             of
-                            Truth</em> (2018), which was preceded by the single, "Swiftly Into The Night" (2018).
+                            Truth</em> (2018), which was preceded by the single, "Swiftly Into The Night" (2018). 2019
+                        saw the release of the book, <em>Terminal Fiction: Selected Lyrics and Words (1995-2017)</em>, a
+                        collection of lyrics and words written by Adolf NS between 1995 and 2017.
                     </p>
                     <br>
                     <br>
@@ -166,7 +194,11 @@
     <script src="https://unpkg.com/popper.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="assets/javascript/lightbox.js"></script>
-    <script src="assets/javascript/lightbox-plus-jquery.js"></script>
+    <!-- This lightbox-plus-jquery.js line has been commented out, otherwise book modal will not work. Uncomment it again when not using book modal: -->
+    <!-- <script src="assets/javascript/lightbox-plus-jquery.js"></script> -->
+
+    <!-- For onload modal for Terminal Fiction book -->
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
 
 </body>
 
