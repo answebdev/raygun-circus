@@ -2,7 +2,7 @@
 
 # Project Description
 
-Raygun Circus is the official website for Raygun Circus, an indie band from San Diego. The website includes a landing page, a bio page, a page of the band's releases in chronological order, a music page with audio, a video page with embedded YouTube videos, and a page with links to various related musical projects and collaborations. Other pages include a gallery of fliers from past shows (Street of Little Girls), as well as pages to album lyrics (Cori Celesti).
+Raygun Circus is the official website for Raygun Circus, an indie band from San Diego. The website includes a landing page, a bio page, a page of the band's releases in chronological order, a music page with audio, a video page with embedded YouTube videos, a page with links to various related musical projects and collaborations, and a contact page where users can send messages to the band. Other pages include a gallery of fliers from past shows (Street of Little Girls), as well as pages to album lyrics (Cori Celesti).
 
 This responsive front-end website was created using JavaScript, Bootstrap, CSS, and HTML. The fonts used ('Cormorant Infant' and 'Lato') come from Google Fonts. The social icons used in the footer and in the navbar of certain band pages come from Font Awesome. Lightbox by Lokesh Dhakar is used to overlay images on the current page. When an image is clicked (e.g. album cover), the image is displayed by filling the screen, and dimming out the rest of the web page (see screenshot #4 below). The videos used are embedded YouTube videos, and are responsive as well.
 
