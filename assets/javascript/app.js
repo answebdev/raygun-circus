@@ -110,7 +110,6 @@ $(document)
   });
 
 // Modal for Terminal Fiction book on Bio page
-
 $(window).ready(function () {
   setTimeout(function () {
     $('#modal-subscribe').modal("show")

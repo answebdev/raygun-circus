@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: auto; */
+    text-align: center;
+}
+
+#thumb {
+    margin-top: 1.5em;
+}
+
+.material-icons {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    animation: swing 0.75s ease;
+    animation-duration: 0.75s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: swing;
+    animation-iteration-count: 1;
+}
+
+h4 {
+    /* text-transform: uppercase;
+    font-size: 20px; */
+    font-family: 'Lato';
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+#btn-text {
+    font-family: 'Lato';
+    /* letter-spacing: 0.5px; */
+}
+
+#back-btn {
+    letter-spacing: 0.1em;
+    /* box-shadow: 0 0 20px 0 rgba(72,94,116,0.7); */
+    /* box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3); */
+}
+
+/* button */
+.header-button {
+    transform: translateZ(.1px);
+    position: relative;
+    z-index: 10;
+    font-weight: 700;
+    background-color: #4967BD !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+/* Button hover effect - source: https://codepen.io/kundankumarmourya/pen/jQKzdB?page=1& */
+
+.button--webcoderskull::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 4px !important;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.button--webcoderskull:hover::before {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.button--text-medium:hover {
+    color: #4967BD !important;
+    border-color: #4967BD !important;
+}
+
+.button--text-medium:active {
+    color: #4967BD !important;
+    border-color: #ffffff !important;
+}
