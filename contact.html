@@ -92,20 +92,16 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <!-- <h1 class="brand"><span>Raygun Circus</span> Contact</h1> -->
                     <div class="wrapper animated bounceInLeft">
                         <div class="company-info">
                             <h3><strong>Raygun Circus</strong></h3>
                             <ul>
-                                <!-- <li><i class="fa fa-road"></i> 44 Something st</li>
-                              <li><i class="fa fa-phone"></i> (555) 555-5555</li> -->
                                 <li><i class="fa fa-envelope"></i> contact@rayguncircus.com</li>
                             </ul>
                         </div>
                         <div class="contact">
                             <h3><strong>Send Message</strong></h3>
                             <!-- <div class="alert">Your message has been sent</div> -->
-
                             <form action="https://www.enformed.io/4f8kqyjw" method="POST">
                                 <p>
                                     <label>Name *</label>
@@ -120,7 +116,6 @@
                                 <p>
                                     <label>Subject *</label>
                                     <input type="text" name="subject" id="subject" required>
-
                                 </p>
                                 <br>
                                 <p class="full">
@@ -132,9 +127,7 @@
                                     <input type="submit" value="Send Message" id="submit-btn">
                                 </p>
                                 <!-- Advanced setup: -->
-                                <!-- After deploying, change URL value to Contact page so user is redirected to contact page instead of landing page -->
-                                <!-- Or create a new html page that says Your message has been sent, and add a go back to contact page button, or use JavaScript to redirect to contact page after 3 seconds -->
-                                <!-- Or just keep the default page - it looks okay, though URL says "https://www.enformed.io/success" -->
+                                <!-- Redirect to success page after sending message: -->
                                 <input type="hidden" name="*redirect" value="https://rayguncircus.com/success.html" />
                                 <!-- Name the form: -->
                                 <input type="hidden" name="Raygun Circus Contact Form" value="enformedForm" />
@@ -145,37 +138,9 @@
                                 <!-- Send messages to this email: -->
                                 <!-- <input type="hidden" name="*default_email" value="contact@rayguncircus.com" /> -->
                             </form>
-
-                            <!-- <form action="https://formspree.io/contact@rayguncircus.com" method="POST" id="contactForm">
-                                <p>
-                                    <label>Name</label>
-                                    <input type="text" name="name" id="name" required>
-                                </p>
-                                <br>
-                                <p>
-                                    <label>Email Address</label>
-                                    <input type="email" name="email" id="email" required>
-                                </p>
-                                <br>
-                                <p>
-                                    <label>Subject</label>
-                                    <input type="text" name="subject" id="subject">
-                                </p>
-                                <br>
-                                <p class="full">
-                                    <label>Message</label>
-                                    <textarea name="message" rows="5" id="message"></textarea>
-                                </p>
-                                <br>
-                                <p class="full">
-                                    <button type="submit" value="Send">Send Message</button>
-                                </p>
-                            </form> -->
                         </div>
                     </div>
-
                 </div>
-
             </div>
             <br>
         </div>
