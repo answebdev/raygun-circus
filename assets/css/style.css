@@ -288,10 +288,16 @@ footer a {
 }
 
 #preview-btn,
+#promo-btn,
 #buy-btn {
   background-color: #212529;
   letter-spacing: 0.5px;
   /* letter-spacing: 0.1em; */
+}
+
+#preview-btn,
+#promo-btn {
+  margin-bottom: 20px;
 }
 
 /* Back-to-top-button */
