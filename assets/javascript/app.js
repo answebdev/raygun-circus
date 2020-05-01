@@ -114,7 +114,7 @@ $(window).ready(function () {
     display: 'double',
     acceleration: true,
     gradients: !$.isTouch,
-    elevation: 50,
+    // elevation: 50,
     when: {
       turned: function (e, page) {},
     },
