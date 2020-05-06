@@ -1,112 +1,113 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Lato';
-	font-size: 2rem;
-	letter-spacing: 0.1em;
-	color: #ffffff;
-	background: #212529;
+  font-family: 'Lato';
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  background: #212529;
 }
 
 /* LOGO IMAGE CODE */
 
 #logo {
-    border-radius: 100%;
-    height: 150px;
-	width: 150px;
-	margin-bottom: 40px;
-	/* margin-bottom: 5rem; */
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 40px;
+  /* margin-bottom: 5rem; */
 }
 
 header {
-	align-items: center;
-	display: flex;
-	font-size: 18px;
-	height: 100vh;
-	justify-content: center;
-	overflow: hidden;
-	position: relative;
-	text-align: center;
-	transform-style: preserve-3d;
-	perspective: 100px;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transform-style: preserve-3d;
+  perspective: 100px;
 }
-  
+
 header:before {
-	animation: fade-slide-down 2s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
-	background: linear-gradient(to bottom, rgba(0,0,0,0.25) 100%, transparent), url("../images/dz.jpg");
-	background-size: cover, cover;
-	background-position: center, center;
-	content: "";
-	opacity: 0;
-	position: absolute;
-	  top: 0;
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-	z-index: -1;
+  animation: fade-slide-down 2s 0.5s cubic-bezier(0, 0.5, 0, 1) forwards;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 100%, transparent),
+    url('../images/dz.jpg');
+  background-size: cover, cover;
+  background-position: center, center;
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
-  
+
 .header-title {
-	color: #ffffff;
-	/* margin-bottom: 15px; */
+  color: #ffffff;
+  /* margin-bottom: 15px; */
 }
-  
+
 .header-subtitle {
-	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
-	font-size: 18px;
-	text-transform: uppercase;
-	/* margin-bottom: 5rem; */
-	margin-bottom: 55px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  /* margin-bottom: 5rem; */
+  margin-bottom: 55px;
 }
-  
+
 .header-button {
-	transform: translateZ(.1px);
-	position: relative;
-	z-index: 10;
-	font-weight: 700;
-	background-color: #4967BD!important;
-	color: #ffffff!important;
-	border-color: #ffffff!important;
+  transform: translateZ(0.1px);
+  position: relative;
+  z-index: 10;
+  font-weight: 700;
+  background-color: #4967bd !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 
 /* Button hover effect - source: https://codepen.io/kundankumarmourya/pen/jQKzdB?page=1& */
 
 .button--webcoderskull::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #ffffff;
-	border-radius: 4px!important;
-	z-index: -1;
-	opacity: 0;
-	-webkit-transform: scale3d(0.7, 1, 1);
-	transform: scale3d(0.7, 1, 1);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
-	transition: transform 0.4s, opacity 0.4s;
-	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 4px !important;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale3d(0.7, 1, 1);
+  transform: scale3d(0.7, 1, 1);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
 .button--webcoderskull:hover::before {
-	opacity: 1;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .button--text-medium:hover {
-	color: #4967BD!important;
-	border-color: #4967BD!important;
+  color: #4967bd !important;
+  border-color: #4967bd !important;
 }
 
 .button--text-medium:active {
-	color: #4967BD!important;
-	border-color: #ffffff!important;
+  color: #4967bd !important;
+  border-color: #ffffff !important;
 }
 
 /* .button--webcoderskull:active::before {
@@ -119,54 +120,54 @@ header:before {
 } */
 
 /* ===================================================== */
-  
+
 .animate-pop-in {
-	animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
-	opacity: 0;
+  animation: pop-in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
 }
-  
+
 .rocky-dashed {
-	animation-delay: .6s;
+  animation-delay: 0.6s;
 }
-  
+
 .header-title {
-	animation-delay: .8s;
+  animation-delay: 0.8s;
 }
-  
+
 .header-subtitle {
-	animation-delay: 1s;
+  animation-delay: 1s;
 }
-  
+
 .header-button {
-	animation-delay: 1.1s;
+  animation-delay: 1.1s;
 }
 
 /* Animations */
-  
+
 @keyframes fade-slide-down {
-	0% {
-		opacity: 0;
-		transform: translateY(-4rem);
-	}
-	100% {
-		opacity: 1;
-		transform: none;
-	}
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
-  
+
 @keyframes pop-in {
-	0% {
-		opacity: 0;
-		transform: translateY(-4rem) scale(.8);
-	}
-	100% {
-		opacity: 1;
-		transform: none;
-	}
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
-  
+
 @keyframes rotate-up {
-	100% {
-		transform: rotateZ(-4deg);
-	}
+  100% {
+    transform: rotateZ(-4deg);
+  }
 }

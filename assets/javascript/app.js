@@ -101,11 +101,11 @@ $(document).keydown(function (e) {
 });
 
 // Modal for Terminal Fiction book on Bio page
-$(window).ready(function () {
-  setTimeout(function () {
-    $('#modal-subscribe').modal('show');
-  }, 3000);
-});
+// $(window).ready(function () {
+//   setTimeout(function () {
+//     $('#modal-subscribe').modal('show');
+//   }, 3000);
+// });
 
 // Book Preview Page logic
 // Turn.js
