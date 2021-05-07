@@ -29,17 +29,8 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
     <link href="assets/css/contact.css" type="text/css" rel="stylesheet" />
-    <!-- Link to Lightbox -->
-    <link href="assets/css/lightbox.css" rel="stylesheet">
-</head>
 
-<style>
-    .con {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-</style>
+</head>
 
 <body>
     <div class="content">
@@ -93,17 +84,68 @@
                 </div>
             </div>
 
+            <!-- <div class="row">
+                <div class="col-md-12">
+                    <p>Feel free to send us a message.</p>
+                    <hr>
+                </div>
+            </div> -->
+
             <br>
 
             <div class="row">
                 <div class="col-md-12">
-                    <h3><strong>Raygun Circus</strong></h3>
-                    <ul>
-                        <li><i class="fa fa-envelope"></i> contact@rayguncircus.com</li>
-                    </ul>
+                    <div class="wrapper animated bounceInLeft">
+                        <div class="company-info">
+                            <h3><strong>Raygun Circus</strong></h3>
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> contact@rayguncircus.com</li>
+                            </ul>
+                        </div>
+                        <div class="contact">
+                            <h3><strong>Send Message</strong></h3>
+                            <!-- <div class="alert">Your message has been sent</div> -->
+                            <form action="https://www.enformed.io/4f8kqyjw" method="POST">
+                                <p>
+                                    <label>Name *</label>
+                                    <input type="text" name="name" id="name" required>
+                                </p>
+                                <br>
+                                <p>
+                                    <label>Email Address *</label>
+                                    <input type="email" name="_replyto" id="email" required>
+                                </p>
+                                <br>
+                                <p>
+                                    <label>Subject *</label>
+                                    <input type="text" name="subject" id="subject" required>
+                                </p>
+                                <br>
+                                <p class="full">
+                                    <label>Message *</label>
+                                    <textarea name="message" rows="5" id="message" required></textarea>
+                                </p>
+                                <br>
+                                <p class="full">
+                                    <input type="submit" value="Send Message" id="submit-btn">
+                                </p>
+                                <!-- Advanced setup: -->
+                                <!-- Redirect to success page after sending message: -->
+                                <input type="hidden" name="*redirect" value="https://rayguncircus.com/success.html" />
+                                <!-- Name the form: -->
+                                <input type="hidden" name="Raygun Circus Contact Form" value="enformedForm" />
+                                <!-- Honeypot to keep robots from submitting form responses: -->
+                                <input type="hidden" name="*honeypot" />
+                                <!-- Customized Subject Line: -->
+                                <input type="hidden" name="*subject" value="Message to Raygun Circus" />
+                                <!-- Send messages to this email: -->
+                                <!-- <input type="hidden" name="*default_email" value="contact@rayguncircus.com" /> -->
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
-
+            <br>
         </div>
     </div>
 
@@ -147,7 +189,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://unpkg.com/popper.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    <script src="assets/javascript/lightbox.js"></script>
 
 </body>
 
