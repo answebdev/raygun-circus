@@ -19,6 +19,10 @@ h3 {
   background-color: #212529 !important;
 }
 
+.navbar-toggler-icon {
+  cursor: pointer;
+}
+
 .navbar-custom .navbar-brand {
   font-size: 24px;
   /* letter-spacing: 0.5px; */

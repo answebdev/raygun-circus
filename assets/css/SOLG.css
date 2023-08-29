@@ -1,34 +1,38 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato';
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    background-color: #ffffff;
+  font-family: 'Lato';
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  background-color: #ffffff;
 }
 
 h3 {
-    font-family: 'Cormorant Infant', serif;
-    font-size: 36px;
-    letter-spacing: 0.5px;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 36px;
+  letter-spacing: 0.5px;
 }
 
 .bg-dark {
-    background-color: #60543E!important;
-    /* background-color: #4967BD!important; */
+  background-color: #60543e !important;
+  /* background-color: #4967BD!important; */
+}
+
+.navbar-toggler-icon {
+  cursor: pointer;
 }
 
 .navbar-custom .navbar-brand {
-    font-size: 24px;
-    /* letter-spacing: 0.5px; */
-    letter-spacing: 1.0px;
+  font-size: 24px;
+  /* letter-spacing: 0.5px; */
+  letter-spacing: 1px;
 }
 
 .navbar-custom .nav-link {
-    font-size: 18px;
-    letter-spacing: 0.5px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
 }
 
 /* .navbar-custom:hover .nav-link:hover {
@@ -36,147 +40,150 @@ h3 {
 } */
 
 #bio-header {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .lightbox-img {
-    width: 66%;
-    height: auto;
+  width: 66%;
+  height: auto;
 }
 
 /* Back-to-top-button */
 #button {
-	display: inline-block;
-	background-color: #60543E;
-	width: 50px;
-	height: 50px;
-	text-align: center;
-	border-radius: 100%;
-	position: fixed;
-	bottom: 60px;
-	right: 15px;
-	transition: background-color .3s, 
-	  opacity .5s, visibility .5s;
-	opacity: 0;
-	visibility: hidden;
-	z-index: 1000;
-  }
-  #button::after {
-	font-weight: normal;
-	font-style: normal;
-	font-size: 2em;
-	line-height: 50px;
-	color: #ffffff;
-  }
-  #button:hover {
-	cursor: pointer;
-	background-color: #BEA289;
-  }
-  #button:active {
-    background-color: #D0C9C7;
-  }
-  #button.show {
-	opacity: 1;
-	visibility: visible;
-  }
-  
-  #back-top-btn {
-      color: #ffffff;
-      font-size: 2em;
-      margin-top: 8px;
-  }
-
-  .card-title {
-      font-weight: 700;
-  }
-
-  .card:hover {
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+  display: inline-block;
+  background-color: #60543e;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #ffffff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #bea289;
+}
+#button:active {
+  background-color: #d0c9c7;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
 
-  #reader-btn {
-      background-color: #60543E;
-      border-color: #60543E;
-  }
+#back-top-btn {
+  color: #ffffff;
+  font-size: 2em;
+  margin-top: 8px;
+}
 
-  #reader-btn:hover {
-      background-color: #BEA289;
-      border-color: #BEA289;
-  }
+.card-title {
+  font-weight: 700;
+}
+
+.card:hover {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+#reader-btn {
+  background-color: #60543e;
+  border-color: #60543e;
+}
+
+#reader-btn:hover {
+  background-color: #bea289;
+  border-color: #bea289;
+}
 
 /* ============= STICKY FOOTER ============= */
 #main-footer {
-    flex-shrink: 0;
-    background-color: #60543E!important;
+  flex-shrink: 0;
+  background-color: #60543e !important;
 }
 
 #main-footer h1 {
-    color: #7F66B1;
-    font-size: 24px;
+  color: #7f66b1;
+  font-size: 24px;
 }
 
 #main-footer p {
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0.1em;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
 }
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 /* ========================================== */
 
 /* Copyright info in footer */
 .lead {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 /* ====== IMAGE GALLERY FOR FLIERS PAGE ===== */
 /* Source: https://bootsnipp.com/snippets/P2gor */
 #main-row {
-    margin-top: -5px;
+  margin-top: -5px;
 }
 
-.btn:focus, .btn:active, button:focus, button:active {
-    outline: none !important;
-    box-shadow: none !important;
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
-  
-#image-gallery .modal-footer{
-    display: block;
+
+#image-gallery .modal-footer {
+  display: block;
 }
-  
-.thumb{
-    margin-top: 15px;
-    margin-bottom: 15px;
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .modal-dialog {
-    width: 35%;
-    height: auto;
+  width: 35%;
+  height: auto;
 }
 
 .modal-title {
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
-.modal-footer>:not(:first-child),
-.modal-footer>:not(:last-child) {
-    background-color: #60543E;
+.modal-footer > :not(:first-child),
+.modal-footer > :not(:last-child) {
+  background-color: #60543e;
 }
 
 /* .modal-footer>:not(:first-child):hover,
@@ -188,33 +195,28 @@ body {
 /* ===== MEDIA QUERIES ===== */
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
-
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-
 }
-  
-@media screen and (min-width: 641px) and (max-width: 768px) {
-    .modal-dialog {
-        width: 100%;
-        height: auto;
-    }
 
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .modal-dialog {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px) {
-    .modal-dialog {
-        width: 100%;
-        height: auto;
-    }
-
+  .modal-dialog {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
-    .modal-dialog {
-        width: 94.5%;
-        height: auto;
-    } 
-
+  .modal-dialog {
+    width: 94.5%;
+    height: auto;
+  }
 }
