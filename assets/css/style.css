@@ -75,6 +75,10 @@ body {
   flex: 1 0 auto;
 }
 
+#international {
+  cursor: pointer;
+}
+
 #main-header {
   margin-top: 40px;
 }
