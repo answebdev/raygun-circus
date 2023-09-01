@@ -14,6 +14,13 @@ btn.on('click', function (e) {
   $('html, body').animate({ scrollTop: 0 }, '300');
 });
 
+// Footer Year
+let = currentYear = new Date().getFullYear();
+let yearSpan = document.querySelectorAll('.year');
+yearSpan.forEach((yearText) => {
+  yearText.innerHTML = currentYear;
+});
+
 /* ====== IMAGE GALLERY FOR SOLG FLIERS PAGE ===== */
 /* Source: https://bootsnipp.com/snippets/P2gor */
 let modalId = $('#image-gallery');
@@ -116,7 +123,7 @@ $(window).ready(function () {
     gradients: !$.isTouch,
     // elevation: 50,
     when: {
-      turned: function (e, page) {},
+      turned: function (e, page) { },
     },
   });
 });
