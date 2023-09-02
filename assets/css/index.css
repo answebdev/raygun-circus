@@ -36,7 +36,7 @@ header {
 header:before {
   animation: fade-slide-down 2s 0.5s cubic-bezier(0, 0.5, 0, 1) forwards;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 100%, transparent),
-    url('../images/dz.jpg');
+    url('../images/dz_landing.webp');
   background-size: cover, cover;
   background-position: center, center;
   content: '';
